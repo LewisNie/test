@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px 15px;
+  
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: 100px auto 20% 100px auto 20px;
+  }
